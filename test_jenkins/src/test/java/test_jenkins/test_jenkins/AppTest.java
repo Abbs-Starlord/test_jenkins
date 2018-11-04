@@ -12,7 +12,7 @@ public class AppTest
     @Test
     public void test() throws InterruptedException
     {
-		System.setProperty("webdriver.gecko.driver","/Users/umerabbs/Documents/workspace/testJava/geckodriver");
+		System.setProperty("webdriver.gecko.driver","./geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		
 		String appUrl = "http://google.com";
